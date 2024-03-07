@@ -48,7 +48,6 @@ class Mahasiswa:
 # Inisiasi object pertama
 mahasiswa1 = Mahasiswa("123456789", "Budi", 2020)
 
-# Inisiasi object kedua tanpa parameter isMahasiswa (default True)
 mahasiswa2 = Mahasiswa("987654321", "Ani", 2021)
 
 # Menampilkan informasi lengkap object pertama
