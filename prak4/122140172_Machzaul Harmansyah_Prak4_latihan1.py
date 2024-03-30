@@ -13,6 +13,9 @@ class Hewan :
         pass
 
 class Kucing(Hewan):
+    def __init__(self,nama,jenis):
+        super(Kucing,self).__init__(nama,jenis)
+
     def bersuara(self):
         print("kucing "+self.nama+" bersuara meong!")
     
@@ -23,6 +26,9 @@ class Kucing(Hewan):
         print("kucing "+self.nama+" sedang minum air")
 
 class Anjing(Hewan):
+    def __init__(self,nama,jenis):
+        super(Anjing,self).__init__(nama,jenis)
+
     def bersuara(self):
         print("Anjing "+self.nama+" bersuara Guk guk!")
 
